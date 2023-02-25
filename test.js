@@ -9,13 +9,16 @@ import {fromMarkdown} from 'mdast-util-from-markdown'
 import {toMarkdown} from 'mdast-util-to-markdown'
 import {removePosition} from 'unist-util-remove-position'
 import {gfmTable} from 'micromark-extension-gfm-table'
-import {gfmTableFromMarkdown, gfmTableToMarkdown} from './index.js'
+import {
+  xtableFromMarkdown as gfmTableFromMarkdown,
+  xtableToMarkdown as gfmTableToMarkdown
+} from './index.js'
 import * as mod from './index.js'
 
 test('core', () => {
   assert.deepEqual(
     Object.keys(mod).sort(),
-    ['gfmTableFromMarkdown', 'gfmTableToMarkdown'],
+    ['xtableFromMarkdown', 'xtableToMarkdown'],
     'should expose the public api'
   )
 })

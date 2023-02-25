@@ -1,6 +1,6 @@
 export type {Options} from './lib/index.js'
 
-export {gfmTableFromMarkdown, gfmTableToMarkdown} from './lib/index.js'
+export {xtableFromMarkdown, xtableToMarkdown} from './lib/index.js'
 
 // Add custom data tracked to turn markdown into a tree.
 declare module 'mdast-util-from-markdown' {

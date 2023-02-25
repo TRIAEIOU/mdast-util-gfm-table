@@ -1,2 +1,2 @@
 // Note: types exposed from `index.d.ts`.
-export {gfmTableFromMarkdown, gfmTableToMarkdown} from './lib/index.js'
+export {xtableFromMarkdown, xtableToMarkdown} from './lib/index.js'
