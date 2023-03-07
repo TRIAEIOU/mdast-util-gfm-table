@@ -39,7 +39,7 @@
   ],
   "dependencies": {
     "@types/mdast": "^3.0.0",
-    "markdown-table": "github:TRIAEIOU/markdown-table#xtable",
+    "markdown-table": "github:TRIAEIOU/markdown-xtable",
     "mdast-util-from-markdown": "^1.0.0",
     "mdast-util-to-markdown": "^1.3.0"
   },
